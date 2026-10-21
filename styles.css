@@ -552,6 +552,8 @@ a {
 .tag--cpp  { color: var(--cpp);  border-color: rgba(74, 144, 217, 0.4); }
 .tag--c    { color: #9aa6b3;    border-color: rgba(154, 166, 179, 0.35); }
 .tag--py   { color: #f0c674;    border-color: rgba(240, 198, 116, 0.35); }
+.tag--sql  { color: #7fb3d5;    border-color: rgba(127, 179, 213, 0.4); }
+.tag--html { color: #e07a5f;    border-color: rgba(224, 122, 95, 0.4); }
 .tag--ghost {
   background: transparent;
   color: var(--text-faint);
@@ -623,6 +625,22 @@ a {
 
 .card:hover .card__link {
   transform: translateX(4px);
+}
+
+.projects__note {
+  margin: 26px 0 0;
+  color: var(--text-dim);
+  font-size: 14.5px;
+}
+
+.projects__note a {
+  color: var(--accent-2);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(122, 162, 247, 0.35);
+}
+
+.projects__note a:hover {
+  border-bottom-color: var(--accent-2);
 }
 
 /* contact */
